@@ -25,7 +25,7 @@ exports.handler = async (event) => {
         
     } catch (err) {
           
-        statusCode = 200;
+        statusCode = 500;
         responseBody = JSON.stringify(err);
         
     }
